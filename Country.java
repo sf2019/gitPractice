@@ -13,7 +13,8 @@ public class Country {
     
     public Country(String n,int p) {
 	name=n;
-	population=p;
+    population=p;
+    System.out.println(name + population);
     }
 
 }

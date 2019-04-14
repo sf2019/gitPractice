@@ -14,7 +14,10 @@ public class Country {
     public Country(String n,int p) {
 	name=n;
     population=p;
-    System.out.println(name + name);
+
+    System.out.println(name +name + population);
+	System.out.println("finished!");
+
     }
 
 }
